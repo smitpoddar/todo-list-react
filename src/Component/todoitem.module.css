@@ -1,0 +1,29 @@
+.container{
+    width: 34vw;
+    padding: 1vw 1.3vw;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.3vw;
+}
+.btn{
+    border: none;
+    padding: 7px 12px;
+    border-radius: 4px;
+    background-color: white;
+}
+.btn:hover{
+    background-color: #f7ca18;
+    cursor: pointer;
+}
+.item{
+    font-size: 3vh;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.completed{
+    text-decoration: line-through;
+}
