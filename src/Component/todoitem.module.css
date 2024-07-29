@@ -1,12 +1,13 @@
 .container{
     width: 34vw;
-    padding: 1vw 1.3vw;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-    border-radius: 4px;
+    padding: 0.5vw 0.5vw ;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 0.3vw;
+    margin-top: 1vw;
+    background-color: rgba(0,0,0,0.1);
 }
 .btn{
     border: none;
@@ -15,7 +16,7 @@
     background-color: white;
 }
 .btn:hover{
-    background-color: #f7ca18;
+    background-color: #911c24;
     cursor: pointer;
 }
 .item{
@@ -26,4 +27,22 @@
 
 .completed{
     text-decoration: line-through;
+}
+@media (max-width: 600px) {
+    .container {
+        width: 80vw; 
+        padding: 2vw;
+        
+    }
+
+    .modernInput {
+        margin-right: 0; 
+        margin-bottom: 1vw; 
+        font-size: 14px;
+    }
+
+    .modernbutton {
+        padding: 10px 12px; 
+        font-size: 14px;
+    }
 }
