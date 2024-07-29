@@ -6,8 +6,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1vw;
-    margin-bottom: 15px;
+    margin-top: vw;
+    margin-bottom: 20px;
     background-color: rgba(0,0,0,0.1);
 }
 .btn{
@@ -34,9 +34,6 @@
     .container {
         width: 80vw; 
         padding: 2vw;
-        margin-bottom: 30px;
-        margin-top:1vw;
-        
     }
 
     .modernInput {
@@ -48,5 +45,9 @@
     .modernbutton {
         padding: 10px 12px; 
         font-size: 14px;
+    }
+    .btn{
+         background-color: #E94B3F;
+         color: white;
     }
 }
