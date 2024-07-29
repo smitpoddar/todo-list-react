@@ -7,8 +7,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 1vw;
-    background-color: #E94B3F;
-    color:white;
+    background-color: rgba(0,0,0,0.1);
 }
 .btn{
     border: none;
@@ -17,8 +16,9 @@
     background-color: white;
 }
 .btn:hover{
-    background-color: #911c24;
+    background-color: #E94B3F;
     cursor: pointer;
+    color: white;
 }
 .item{
     font-size: 3vh;
